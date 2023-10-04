@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question1</title>
+     <!-- Internal CSS -->
+     <style>
+        #div1 {
+            margin: 10px;
+            background-color: rgb(147, 147, 242);
+            color:#fff;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            margin: 10px;
+            background-color: rgb(36, 74, 36);
+            color: #fff;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+     <!-- External CSS -->
+     <link rel="stylesheet" href="question1.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <div id="div1" style="border: 2px solid rgb(64, 64, 184);">
+        <p>This is a div with inline CSS.</p>
+    </div>
+
+    <div class="box">
+        <p>This is a div with internal CSS (defined in the head).</p>
+    </div>
+
+    <div class="box" id="externaldiv">
+        <p>This is a div with external CSS (defined in question1.css).</p>
+    </div>
+</body>
+</html>

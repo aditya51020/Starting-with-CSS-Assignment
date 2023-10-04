@@ -1,0 +1,36 @@
+
+/* Styling for the regular paragraph */
+.para {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for the important paragraph */
+.para_important {
+    font-weight: bold;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for the subtext paragraph */
+.para_subtext {
+    font-style: italic;
+    color: #777;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for the highlighted paragraph */
+.para.para-highlighted {
+    background-color: yellow;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
